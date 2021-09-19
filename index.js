@@ -8,5 +8,8 @@ function Person(name, family, age, job) {
     this.age = age;
     this.job = job;
 }
-var Michael = new Person("Michael", "scofield", "33", "Engineer");
+var Michael = new Person("Michael", "Scofield", "33", "Engineer");
+var Lincoln = new Person("Lincoln", "Borrows", "37", "killer");
+//  yeah Im a prison break fan ! :)
 console.log(Michael);
+console.log(Lincoln);
